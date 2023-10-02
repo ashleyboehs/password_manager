@@ -6,10 +6,10 @@ export default class extends Controller {
   }
 
   connect() {
-    this.originalText = this.element.textContent
+    this.originalText = this.element.textContent  
   }
 
-  copy() {
+  copy() { 
     navigator.clipboard.writeText(this.contentValue).then(
       () => {
         this.element.textContent = "Copied!"
