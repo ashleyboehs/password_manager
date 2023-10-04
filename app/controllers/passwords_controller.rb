@@ -1,8 +1,8 @@
 class PasswordsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_password , except: [:index, :new, :create]
-  before_action :require_editable_permissions, only: [:edit, :update]
-  before_action :require_deletable_permissions, only: [:destroy]
+  before_action :require_editable_permission, only: [:edit, :update]
+  before_action :require_deletable_permission, only: [:destroy]
 
   def index
     @passwords = current_user.passwords
