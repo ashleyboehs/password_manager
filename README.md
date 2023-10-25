@@ -2,7 +2,7 @@
 
 # 📖 password_manager <a name="about-project"></a>
 
-> Users are able to create a user and added, edit, and share passwords between users.
+> Users are able to create a user which can add, edit, and share passwords between users.
 
 ## 🛠 Built With <a name="built-with"></a>
 
