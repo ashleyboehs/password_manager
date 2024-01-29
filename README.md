@@ -36,7 +36,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> (https://blue-cloud-1078.fly.dev/)
+> Not available.
 
 
 <!-- GETTING STARTED -->
